@@ -1,0 +1,162 @@
+/*x small screen*/
+@media (max-width: 767px) {
+    .navbar>.container {
+        padding: 0 30px;
+    }
+    .main-header .content img {
+        width: 135px;
+    }
+    .main-header .content h2 {
+        font-size: 2.2rem;
+    }
+    .main-header .content p {
+        font-size: 1.2rem;
+    }
+    .about{
+        width: 90%;
+        overflow: hidden;
+    }
+    .about-left {
+        margin-bottom: 80px;
+    }
+    .about-left {
+        height: 550px;
+    }
+    .about.about .about-left .about-content .c-img {
+        justify-content: flex-start;
+    }
+    .about.about .about-left .about-content img {
+        width: 430px;   
+    }
+    .about.about .about-left .about-content .back-border {
+        left: 90px;
+        width: 26rem;
+        height: 32rem;
+    }
+    .title {
+        margin-left: 10px;
+    }
+    .services .sercices-card {
+        width: 90%;
+    }
+    .services .get-contact a {
+        display: inline-flex;
+    }
+    .portfolio .container {
+        width: 90%;
+    }
+    .content-img .holder {
+        width: 100%;
+    }
+    .news .news-card {
+        margin-bottom: 0rem;
+    }
+    .contact .contact-left button {
+        margin-bottom: 0px;
+    }
+    .contact .contact-right > div {
+        margin-top: 50px;
+    }
+    .contact-right {
+        margin-bottom: 100px;
+    }
+    .color .color-left {
+        font-size: 2.5rem;
+        height: 5rem;
+    }
+    .color .color-right ul li {
+        width: 25px;
+        height: 25px;
+    }
+    .color .color-right span {
+        font-size: 1.5rem;
+    }
+}
+/*small screen*/
+/* ------------------------------------------------------ */
+/* ------------------------------------------------------ */
+/* ------------------------------------------------------ */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-nav .nav-link {
+        font-size: 1.5rem;
+    }
+    .about{
+        width: 90%;
+        overflow: hidden;
+    }
+    .about-left {
+        margin-bottom: 80px;
+    }
+    .about-left {
+        height: 550px;
+    }
+    .about.about .about-left .about-content .c-img {
+        justify-content: flex-start;
+    }
+    .about.about .about-left .about-content img {
+        width: 430px;   
+    }
+    .about.about .about-left .about-content .back-border {
+        left: 90px;
+        width: 26rem;
+        height: 32rem;
+    }
+    .services .sercices-card {
+        width: calc(100% / 3 - 40px);
+    }
+    .content-img .holder {
+        width: 21rem;
+    }
+    .news .news-card {
+        margin-bottom: 0rem;
+    }
+    .contact .contact-left button {
+        margin-bottom: 0;
+    }
+    .contact .contact-right > div {
+        margin-top: 35px;
+        margin-bottom: 80px;
+    }
+    .color .color-left {
+        font-size: 2.5rem;
+        height: 5rem;
+    }
+    .color .color-right ul li {
+        width: 25px;
+        height: 25px;
+    }
+    .color .color-right span {
+        font-size: 1.5rem;
+    }
+}
+/*mediam screen*/
+/* ------------------------------------------------------ */
+/* ------------------------------------------------------ */
+/* ------------------------------------------------------ */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .services .sercices-card {
+        width: calc(100% / 3 - 40px);
+    }
+    .content-img .holder {
+        width: 28rem;
+    }
+    .news .news-card {
+        margin-bottom: 0rem;
+    }
+    .contact .contact-left button {
+        margin-bottom: 0;
+    }
+    .contact .contact-right > div {
+        margin-top: 35px;
+        margin-bottom: 80px;
+    }
+}
+/*larg screen*/
+/* ------------------------------------------------------ */
+/* ------------------------------------------------------ */
+/* ------------------------------------------------------ */
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1000px;
+    }
+}
